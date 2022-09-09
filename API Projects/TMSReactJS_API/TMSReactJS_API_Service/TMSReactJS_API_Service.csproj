@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TMSReactJS_API_Common\TMSReactJS_API_Common.csproj" />
+    <ProjectReference Include="..\TMSReactJS_API_Models\TMSReactJS_API_Models.csproj" />
+    <ProjectReference Include="..\TMSReactJS_API_Repository\TMSReactJS_API_Repository.csproj" />
+  </ItemGroup>
+
 </Project>
